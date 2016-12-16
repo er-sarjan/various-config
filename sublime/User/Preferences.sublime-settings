@@ -1,0 +1,67 @@
+{
+	"added_words":
+	[
+		"Sarjan",
+		"Desai",
+		"sarjan",
+		"lodash",
+		"param",
+		"api",
+		"params",
+		"speciality",
+		"json"
+	],
+	"auto_complete": false,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*/node_modules*",
+		"*/bower_components*",
+		"*/coverage*",
+		"*/dist*"
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Color Highlighter/themes/Kuroir Theme (SL).tmTheme",
+	"default_line_ending": "unix",
+	"detect_indentation": true,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"font_face": "consolas",
+	"font_size": 17,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"rulers":
+	[
+		80
+	],
+	"tab_completion": false,
+	"tab_size": 2,
+	"theme": "Soda Light 3.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"word_wrap": true
+}

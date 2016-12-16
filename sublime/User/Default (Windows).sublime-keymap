@@ -1,0 +1,42 @@
+[{
+  "keys": ["ctrl+shift+f"],
+  "command": "reindent"
+}, {
+  "keys": ["ctrl+shift+r"],
+  "command": "show_panel",
+  "args": {
+    "panel": "find_in_files"
+  }
+}, {
+  "keys": ["ctrl+shift+c"],
+  "command": "title_case"
+}, {
+  "keys": ["f1"],
+  "command": "next_result"
+}, {
+  "keys": ["shift+f1"],
+  "command": "prev_result"
+}, {
+  "keys": ["ctrl+e"],
+  "command": "slurp_find_string"
+}, {
+  "keys": ["ctrl+alt+p"],
+  "command": "prompt_select_workspace"
+},
+{
+  "keys": ["ctrl+alt+f"],
+  "command": "htmlprettify"
+},
+{
+  "keys": ["ctrl+alt+f"],
+  "command": "code_formatter"
+},
+{
+  "keys": ["ctrl+shift+t"],
+  "command": "open_recent_file",
+  "args": {"index" : 0}
+},
+{
+  "keys": ["ctrl+b"],
+  "command": ""
+}]
