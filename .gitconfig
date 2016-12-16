@@ -1,0 +1,71 @@
+[user]
+	name = Sarjan Desai
+	email = er.sarjan686@gmail.com
+[alias]
+
+  cl = clone
+  br = branch
+  #diff = diff --word-diff
+  r = reset
+
+  #Stash
+  stl = stash list
+  sta = stash apply
+  sts = stash save
+  stp = stash pop
+
+  # one-line log
+  l = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate --date=short
+  fl = log -u
+  dl = "!git ll -1"
+  lol = log --oneline --decorate
+
+  cm = commit -m
+
+  a = add
+  ap = add -p
+
+  c = commit --verbose
+  ca = commit -a --verbose
+  cm = commit -m
+  cam = commit -a -m
+  m = commit --amend --verbose
+
+  s = status
+  ss = status -s
+  ssb = status -sb
+
+  d = diff
+  ds = diff --stat
+  dc = diff --cached
+
+
+  co = checkout
+  cob = checkout -b
+
+  # list branches sorted by last modified
+  b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+
+  # List alias
+  la = "!git config -l | grep alias | cut -c 7-"
+
+  lt = describe --tags --abbrev=0
+
+  ours = "!f() { git co --ours $@ && git add $@; }; f"
+  theirs = "!f() { git co --theirs $@ && git add $@; }; f"
+
+  # Show graph
+	tree = log --graph --decorate --pretty=oneline --abbrev-commit
+
+  bc = branch --contains
+	rv = remote -v
+	std = stash drop
+
+[push]
+	default = simple
+[core]
+	autocrlf = input
+[diff]
+    mnemonicprefix = true
+[credential]
+	helper = wincred
